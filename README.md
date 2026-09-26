@@ -1,93 +1,162 @@
-# OpenClaw-AI-Cybersecurity-Lab
-Self-hosted AI Cybersecurity Assistant built using OpenClaw, Ollama, Telegram and Kali Linux.
+# 🛡️ OpenClaw AI Cybersecurity Lab
 
-## Overview
+### Self-Hosted AI Cybersecurity Assistant using OpenClaw, Ollama, Telegram & Kali Linux
 
-This project focuses on building a self-hosted AI cybersecurity assistant using OpenClaw, Ollama, Telegram, and Kali Linux. The assistant can process user requests through Telegram, interact with a locally hosted cybersecurity-focused LLM, and assist with various security-related tasks.
+![Cybersecurity](https://img.shields.io/badge/CYBERSECURITY-LAB-blue?style=for-the-badge)
+![OpenClaw](https://img.shields.io/badge/OPENCLAW-AI_AGENT-orange?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/OLLAMA-LOCAL_LLM-black?style=for-the-badge)
+![Telegram](https://img.shields.io/badge/TELEGRAM-BOT-blue?style=for-the-badge)
+![Kali Linux](https://img.shields.io/badge/KALI-LINUX-purple?style=for-the-badge)
 
 ---
 
-## Architecture
+# 🧠 About This Project
+
+A hands-on cybersecurity AI laboratory focused on building and testing a self-hosted AI assistant for cybersecurity operations.
+
+The project combines:
+
+- OpenClaw AI Agent Framework
+- Ollama Local LLM Runtime
+- Dolphin3-Cyber-8B Cybersecurity Model
+- Telegram Bot Integration
+- Cybersecurity Tool Automation
+
+The assistant can receive requests through Telegram, process them using a local LLM, and interact with cybersecurity tools for reconnaissance and security testing.
+
+---
+
+# 🤖 Module 01 — Local LLM Deployment
+
+Deployment and testing of a locally hosted cybersecurity-focused Large Language Model using Ollama.
+
+### Key Activities
+
+- Ollama Installation
+- Dolphin3-Cyber-8B Deployment
+- Model Testing
+- Performance Evaluation
+- Local AI Inference
+
+---
+
+# 🤖 Module 02 — OpenClaw AI Agent
+
+Building an AI-powered cybersecurity assistant using OpenClaw and Telegram.
+
+### Features
+
+- Telegram-Based Interaction
+- AI Agent Workflows
+- Tool Execution Support
+- Local Processing
+- Remote Accessibility
+
+---
+
+# 🔧 Integrated Security Tools
+
+The AI assistant can interact with various cybersecurity tools.
+
+| Tool | Purpose |
+|--------|----------|
+| Nmap | Network Discovery & Port Scanning |
+| Subfinder | Subdomain Enumeration |
+| Nikto | Web Vulnerability Scanning |
+| Dirb | Directory Enumeration |
+
+---
+
+# 🏗️ Architecture
 
 ```text
 User
-  │
-  ▼
+ │
+ ▼
 Telegram Bot
-  │
-  ▼
+ │
+ ▼
 OpenClaw
-  │
-  ▼
+ │
+ ▼
 Ollama
-  │
-  ▼
+ │
+ ▼
 Dolphin3-Cyber-8B
-  │
-  ▼
+ │
+ ▼
 Security Tools
 ```
 
 ---
 
-## Technologies Used
+# 📂 Documentation
 
-* Kali Linux
-* OpenClaw
-* Ollama
-* Telegram Bot
-* Dolphin3-Cyber-8B
-* Nmap
-* Subfinder
-* Nikto
-* Dirb
-
----
-
-## Project Objectives
-
-* Deploy and configure OpenClaw.
-* Set up Ollama for local LLM execution.
-* Integrate the Dolphin3-Cyber-8B model.
-* Connect the assistant to Telegram.
-* Enable interaction with cybersecurity tools.
-* Evaluate AI-assisted security operations.
+| Document | Description |
+|-----------|-------------|
+| 01-project-overview.md | Project introduction and objectives |
+| 02-environment-setup.md | Hardware and software requirements |
+| 03-openclaw-installation.md | OpenClaw installation guide |
+| 04-telegram-integration.md | Telegram bot configuration |
+| 05-tool-integration.md | Security tool integration |
+| 06-testing-results.md | Testing and validation |
 
 ---
 
-## Documentation
+# 🚀 Skills Demonstrated
 
-* Lab Setup
-* OpenClaw Installation
-* Ollama Configuration
-* Telegram Integration
-* Security Tool Integration
-* Testing and Results
-
----
-
-## Skills Demonstrated
-
-* Linux Administration
-* AI Agent Deployment
-* OpenClaw Configuration
-* Ollama Deployment
-* Telegram Bot Integration
-* Security Tool Integration
-* Technical Documentation
+- Linux Administration
+- AI Agent Deployment
+- OpenClaw Configuration
+- Ollama Deployment
+- Telegram Bot Integration
+- Local LLM Deployment
+- Security Tool Automation
+- Technical Documentation
 
 ---
 
-## Future Improvements
+# 📊 Project Status
 
-* Automated Reconnaissance Workflows
-* AI-Powered SOC Assistant
-* Automated Vulnerability Reporting
-* Multi-Agent Security Operations
-* Additional Security Tool Integrations
+🟢 Local LLM Deployment — Completed
+
+🟢 OpenClaw Installation — Completed
+
+🟢 Telegram Integration — Completed
+
+🟢 Security Tool Integration — Completed
+
+🟢 Functional Testing — Completed
+
+🟢 Documentation — Completed
 
 ---
 
-## Result
+# 🎯 Future Improvements
 
-A fully functional AI cybersecurity assistant capable of receiving requests through Telegram, processing them using a locally hosted LLM, and assisting with cybersecurity tasks through integrated security tools.
+- Automated Reconnaissance Workflows
+- AI-Powered SOC Assistant
+- Vulnerability Report Generation
+- Multi-Agent Cybersecurity Operations
+- Threat Intelligence Integration
+- Automated Pentesting Workflows
+
+---
+
+# ✅ Result
+
+Successfully deployed a self-hosted AI cybersecurity assistant capable of:
+
+- Communicating through Telegram
+- Running a local cybersecurity-focused LLM
+- Integrating with security tools
+- Assisting with reconnaissance and security assessments
+- Operating without reliance on cloud-based AI services
+
+---
+
+## 👨‍💻 Author
+
+**Amogha K S**
+
+Cybersecurity Enthusiast | AI Security Research | Penetration Testing | Digital Forensics
